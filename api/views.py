@@ -30,3 +30,7 @@ def student_list(request):
     # print(json_data)
 
     return HttpResponse(json_data, content_type='application/json')
+
+
+    def codestack_homepage(request):
+        return HttpResponse(request,"This is Govind Kashyap's Site")
