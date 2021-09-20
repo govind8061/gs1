@@ -5,6 +5,7 @@ from api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.codestack_home),
     path('stuinfo/<int:pk>/', views.student_detail),
     path('stuinfo/', views.student_list),
 ]
