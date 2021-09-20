@@ -18,4 +18,4 @@ def student_list(request):
     return HttpResponse(json_data, content_type='application/json')
 
 def codestack_home(request):
-    return render(request,'index.html',{})
+    return render(request,'index.html')
